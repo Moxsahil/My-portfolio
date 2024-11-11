@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     eslint: {
-        ignoreDuringBuilds
+        ignoreDuringBuilds: true, // Set this to true to avoid ESLint warnings during build
     }
 };
 
