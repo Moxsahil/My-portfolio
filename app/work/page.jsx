@@ -27,8 +27,8 @@ const projects =[
     description: "A complete APPLE 3D responsive website.",
     stack: [{ name: "REACT"}, { name: "GSAP"},{ name: "THREE JS"}],
     image: '/assets/work/thumb1.png',
-    live: "",
-    github: "",
+    live: "https://subtle-trifle-d29163.netlify.app/",
+    github: "https://github.com/Moxsahil/3D_apple_website",
   },
   {
     num: "02",
@@ -47,8 +47,8 @@ const projects =[
     description: "My portfolio show casing all my projects and skills.",
     stack: [{ name: "ReactJS"}, { name: "Tailwind Css"},{ name: "Framer Motion"}],
     image: '/assets/work/portfolio.png',
-    live: "",
-    github: "https://github.com/Moxsahil/My_portfolio",
+    live: "https://my-portfolio-three-pi-92.vercel.app/",
+    github: "https://github.com/Moxsahil/My-portfolio",
   },
 ];
 
