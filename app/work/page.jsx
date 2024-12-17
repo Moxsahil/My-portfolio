@@ -32,22 +32,22 @@ const projects =[
   },
   {
     num: "02",
-    category: "Android app in java ",
-    title: "Android Traveling Application ",
-    description: "A complete Android Traveling Application.",
-    stack: [{ name: "Java"}, { name: "Mysql"},{ name: "XML"}],
+    category: "MOX WORLD 3D WEBSITE ",
+    title: "MOX WORLD 3D WEBSITE",
+    description: "A complete 3D Application.",
+    stack: [{ name: "React"}, { name: "GSAP"},{ name: "Tailwind Css"}],
     image: '/assets/work/thumb2.png',
-    live: "",
-    github: "",
+    live: "https://mox-world.vercel.app/",
+    github: "https://github.com/Moxsahil/MOX_WORLD",
   },
   {
     num: "03",
-    category: "My portFolio",
-    title: "My portfolio",
+    category: "Car Booking Full Stack",
+    title: "Moksh Car Booking",
     description: "My portfolio show casing all my projects and skills.",
-    stack: [{ name: "ReactJS"}, { name: "Tailwind Css"},{ name: "Framer Motion"}],
-    image: '/assets/work/portfolio.png',
-    live: "https://my-portfolio-three-pi-92.vercel.app/",
+    stack: [{ name: "ReactJS"}, { name: "Tailwind Css"},{ name: "NodeJS"},{ name: "ExpressJS"},{ name: "MongoDB"}],
+    image: '/assets/work/thumb3.png',
+    live: "",
     github: "https://github.com/Moxsahil/My-portfolio",
   },
 ];
@@ -56,9 +56,9 @@ const Work = () => {
   const [project, setProject] = useState(projects[0]);
 
   const handleSlideChange = (swiper) => {
-    //get current slide index 
+    
     const currentIndex = swiper.activeIndex;
-    //update project state based pn current slide index
+    
     setProject(projects[currentIndex])
   }
 
@@ -87,7 +87,7 @@ const Work = () => {
                     {project.stack.map((item, index) => {
                       return <li key={index} className="text-xl text-accent">
                         {item.name}
-                        {/* remove the last comma */}
+                        
                         {index !== project.stack.length-1 && ","}
                         </li>
                     })}
