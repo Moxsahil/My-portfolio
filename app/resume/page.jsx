@@ -29,7 +29,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "1 year"   
+      fieldValue: "Fresher"   
     },
     {
       fieldName: "Linkedin",

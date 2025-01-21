@@ -22,16 +22,36 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects =[
   {
     num: "01",
-    category: "APPLE 3D WEBSITE",
-    title: "APPLE 3D",
-    description: "A complete APPLE 3D responsive website.",
-    stack: [{ name: "REACT"}, { name: "GSAP"},{ name: "THREE JS"}],
-    image: '/assets/work/thumb1.png',
-    live: "https://subtle-trifle-d29163.netlify.app/",
-    github: "https://github.com/Moxsahil/3D_apple_website",
+    category: "Car Booking Full Stack",
+    title: "Moksh Car Booking",
+    description: "A complete full stack car booking website with payment integration.",
+    stack: [{ name: "ReactJS"}, { name: "Tailwind Css"},{ name: "NodeJS"},{ name: "ExpressJS"},{ name: "MongoDB"}],
+    image: '/assets/work/thumb3.png',
+    live: "",
+    github: "https://github.com/Moxsahil/My-portfolio",
   },
   {
     num: "02",
+    category: "SCHOOL MANAGEMENT NEXT JS DASHBOARD",
+    title: "Full stack dashboard.",
+    description: "A complete full stack school dashboard where different data is stored for student, teachers, parent, and many more .....",
+    stack: [{ name: "NEXT JS"}, { name: "Tailwind CSS"},{ name: "Posgres SQL"},{ name: "Clerk"}],
+    image: '/assets/work/thumb4.png',
+    live: "",
+    github: "https://github.com/Moxsahil/MOX-NEXT-JS-DASHBOARD",
+  },
+  {
+    num: "03",
+    category: "MY PORTFOLIO",
+    title: "My 2nd portfolio WEBSITE",
+    description: "My 2nd portfolio.",
+    stack: [{ name: "React"}, { name: "Framer motion"},{ name: "Css"}],
+    image: '/assets/work/thumb5.png',
+    live: "https://sahil-portfolio-five.vercel.app/",
+    github: "https://github.com/Moxsahil/Sahil_Portfolio",
+  },
+  {
+    num: "04",
     category: "MOX WORLD 3D WEBSITE ",
     title: "MOX WORLD 3D WEBSITE",
     description: "A complete 3D Application.",
@@ -41,14 +61,14 @@ const projects =[
     github: "https://github.com/Moxsahil/MOX_WORLD",
   },
   {
-    num: "03",
-    category: "Car Booking Full Stack",
-    title: "Moksh Car Booking",
-    description: "My portfolio show casing all my projects and skills.",
-    stack: [{ name: "ReactJS"}, { name: "Tailwind Css"},{ name: "NodeJS"},{ name: "ExpressJS"},{ name: "MongoDB"}],
-    image: '/assets/work/thumb3.png',
-    live: "",
-    github: "https://github.com/Moxsahil/My-portfolio",
+    num: "05",
+    category: "APPLE 3D WEBSITE",
+    title: "APPLE 3D",
+    description: "A complete APPLE 3D responsive website.",
+    stack: [{ name: "REACT"}, { name: "GSAP"},{ name: "THREE JS"}],
+    image: '/assets/work/thumb1.png',
+    live: "https://subtle-trifle-d29163.netlify.app/",
+    github: "https://github.com/Moxsahil/3D_apple_website",
   },
 ];
 
@@ -78,7 +98,7 @@ const Work = () => {
                 {project.num}
                 </div>
                 {/*project category */}
-                <h2 className = "text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category}  project
+                <h2 className = "text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category}
                   </h2>
                   {/* project description */}
                   <p className="text-white/60">{project.description}</p>

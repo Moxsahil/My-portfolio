@@ -6,8 +6,8 @@ import Link from "next/link";
 const services = [
   {
     num: '01',
-    title: 'Web Development',
-    description: 'simple and user-friendly web applications.'
+    title: 'Full Stack applications',
+    description: 'simple and user-friendly MERN stack applications.'
   },
   {
     num: '02',
@@ -16,8 +16,8 @@ const services = [
   },
   {
     num: '03',
-    title: 'Backend Development',
-    description: 'Backend development using Node.js and express.'
+    title: 'Dashboard Designing',
+    description: 'A complete full stack dashboard management system with authentication.'
   },
 ];
 
