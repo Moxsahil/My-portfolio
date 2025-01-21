@@ -28,7 +28,7 @@ const projects =[
     stack: [{ name: "ReactJS"}, { name: "Tailwind Css"},{ name: "NodeJS"},{ name: "ExpressJS"},{ name: "MongoDB"}],
     image: '/assets/work/thumb3.png',
     live: "",
-    github: "https://github.com/Moxsahil/My-portfolio",
+    github: "https://github.com/Moxsahil/Car-Booking-Full-Stack-application",
   },
   {
     num: "02",
@@ -130,7 +130,7 @@ const Work = () => {
                       </TooltipProvider>
                     </Link>
                     {/* github project button */}
-                    <Link href="{project.github}" passHref>
+                    <Link href={project.github} target="_blank" rel="noopener noreferrer">
                       <TooltipProvider delayDuration={100}>
                         <Tooltip>
                           <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
